@@ -49,7 +49,7 @@ public class Display {
 
     public void SalarySheet() throws SQLException, Exception {
         SalarySheetController salarySheetRepo = new SalarySheetController();
-        System.out.println("emp_id\tsalary\ttax_amt\tbonus");
+        System.out.println("emp_id\tsalary\ttax\ttax_amt\tbonus\tfin_salary");
         salarySheetRepo.view();
     }
 

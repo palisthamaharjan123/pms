@@ -55,7 +55,7 @@ public class DepartmentRepository {
         String dep_name;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter department id:");
-        emp_id = sc.nextInt();
+        dep_id = sc.nextInt();
         System.out.println("enter employee id:");
         emp_id = sc.nextInt();
         System.out.println("enter department name:");

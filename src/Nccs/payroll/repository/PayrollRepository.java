@@ -62,7 +62,7 @@ public class PayrollRepository {
         transfer_date = sc.next();
 
         //System.out.print("palistha");
-        String insertQuery = String.format("insert into payroll(emp_id,salary_status)values(%d,'%s','%s')", emp_id, salary_status,transfer_date);
+        String insertQuery = String.format("insert into payroll(emp_id,salary_status,transfer_date)values(%d,'%s','%s')", emp_id, salary_status,transfer_date);
         String url, userName, password;
         url = "jdbc:mysql://localhost:3306/pms";
         userName = "palistha";
